@@ -96,14 +96,8 @@ if __name__ == "__main__":
     df_repayments = generate_repayments(df_loans)
     
     # 2. Database Connection setup
-    DB_USER = os.getenv("DB_USER")
-    DB_PASSWORD = os.getenv("DB_PASSWORD")
-    DB_HOST = os.getenv("DB_HOST")
-    DB_PORT = os.getenv("DB_PORT")
-    DB_NAME = os.getenv("DB_NAME")
-    
-    # SQLAlchemy connection string
-    connection_string = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+    load_dotenv()
+    connection_string = os.getenv("DATABASE_URL")
     engine = create_engine(connection_string)
     
     # 3. Load Data
