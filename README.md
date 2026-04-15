@@ -10,7 +10,7 @@ By migrating from a local data architecture to a fully decoupled cloud ecosystem
 
 I designed this project using a modern, triple-branch consumption architecture to ensure the database acts as a single source of truth powering multiple distinct business needs.
 
-*(`![Project Architecture]https://postimg.cc/w3ZhRvZ5`)*
+`![Project Architecture]https://postimg.cc/w3ZhRvZ5`
 
 ### 1. Ingestion & Staging Layer
 * **Data Sources:** I simulated a realistic FinTech environment with a Loan Database and a live Transaction API.
