@@ -2,7 +2,7 @@
 
 ![Build Status](https://img.shields.io/badge/Status-Complete-success) ![Python](https://img.shields.io/badge/Python-3.12-blue) ![PostgreSQL](https://img.shields.io/badge/Database-Neon_Postgres-blue) ![Deployment](https://img.shields.io/badge/Deploy-Docker%20%7C%20Render-blue)
 
-![Executive Dashboard](./path_to_your_dashboard_image.png)
+![Executive Dashboard](https://i.postimg.cc/jj6qCCz3/Fin-Tech-Credit-Risk-Dashboard-(5).png)
 
 ## 📖 Overview & Business Problem
 Financial institutions face significant exposure to preventable loan defaults. The primary challenge is migrating from reactive, historical reporting to a proactive, real-time alerting system that identifies high-risk credit profiles *before* a default occurs. 
@@ -29,7 +29,7 @@ Based on this analysis, broad-spectrum risk policies are inefficient. Instead, I
 
 ## 🏗️ Architecture & Workflow
 
-![Architecture Flow](./Untitled Diagram_3.webp)
+![Architecture Flow](https://i.postimg.cc/RVVG8JTY/Untitled-Diagram.webp)
 
 The pipeline is built for scalability, utilizing a modern triple-branch consumption architecture:
 1. **Ingestion & Staging Layer:** A custom Python ETL script extracts simulated loan and transaction data, transforming and loading it into a Local Staging DB for validation.
